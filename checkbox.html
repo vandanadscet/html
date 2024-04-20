@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_level 3</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age"  name="age" checked/>
+        <label for="age"> I am 18+ </label>
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple"/>
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango"/>
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana"/>
+            <label for="banana">banana</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="math" name="subject" value="math"/>
+            <label for="math">math</label>
+            <input type="checkbox" id="science" name="subject" value="science"/>
+            <label for="science">science</label>
+            <input type="checkbox" id="english" name="subject" value="eng"/>
+            <label for="english">english</label>
+        </div>
+        <div>
+            <select name="profession" id="profession">
+                <option>select your option</option>
+                <option value="stu">student</option>
+                <option value="dev">developer</option>
+                <option value="bus">businessman</option>
+            </select>
+        </div>
+        <label for="vol">select your volume</label>
+        <input type="range" id="vol" min="0" max="100" name="vol" step="10"/>
+        <br/>
+        <label for="feedback">please give your valuable feedback : </label>
+        <textarea id="feedback" name="feedback" placeholder="write your feedback here" ></textarea>
+        <button>submit</button>
+    </form>
+    
+</body>
+</html>
